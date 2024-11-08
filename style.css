@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content{
+    text-align: center;
+    color: #ffff;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    color: #6f42c1;
+}
+h2{
+    color: #ffc107;
+}
+button {
+    width: 250px;
+    height: 90px;
+    background-color: #6f42c1;
+    color: #ffff;
+    border: 0;
+}
+button:hover{
+    background-color: seagreen;
+}
+
+
+/* BACKGROUND */
+canvas { 
+    overflow: hidden;
+    position: absolute;
+    top: 0;left: 0;right: 0;bottom: 0;
+    z-index: -1;
+    width:100vw;
+    height:100vh;
+    background-color:black;
+ }
